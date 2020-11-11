@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href='style.css'>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="ui fixed menu" id='menu'>
+
+        <a href="#" class="active item">HOME</a>
+        <a href="#intro" class="item">HELLO</a>
+        <a href="#bio" class="item">WHO I AM</a>
+        <a href="#work" class="item">WHAT I DO</a>
+        <a href="#contact" class="item">SAY HI</a>
+
+    </div>
+
+    <!-- Page content -->
+    <div class='first'>
+
+        <h3 class='title'>Samuel Daurt</h3>
+        <p class='subtitle'>Human booster guest lorem ipsum</p>
+
+
+    </div>
+    <!-- The Intro Section -->
+    <div class="intro" id='intro'>
+        <h2 class='subtitle'>Intro</h2>
+        <div class='intro-div'>
+            <p id="text">Quanta autem vis amicitiae sit, ex hoc intellegi maxime potest, quod ex infinita societate
+                generis humani, quam conciliavit ipsa natura..</p>
+            <p class='border-text'>Eius populus ab incunabulis primis ad usque pueritiae tempus extremum, quod annis
+                circumcluditur fere trecentis.
+            </p>
+            <p id="text">Eius populus ab incunabulis primis ad usque pueritiae tempus extremum, quod annis
+                circumcluditur fere trecentis, circummurana pertulit bella, deinde aetatem ingressus adultam post
+                multiplices.</p>
+            <form class='ui form' id='first-form'>
+                <div class="inline fields">
+                    <div class="field"><button class="ui button"  id='button-intro'>See my work</button></div>
+                    <div class="field"><button class="ui button"  id='button-intro'>Contact me</button></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- The Bio Section -->
+    <div class="bio" id='bio'>
+
+        <h2 class='subtitle'>Bio</h2>
+
+            <img src="public/puzzle.jpg" class='ui centered image' id='bio-image' />
+       
+        <p class='parag2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.</p>
+
+        <div class='table'>
+            <table class="ui celled  table">
+                <thead class="" >
+                    <tr class="ui blue inverted table" id='headCell'>
+                        <th colSpan="2" class="">Développement</th>
+                        <th colSpan="2" class="">Technique</th>
+                    </tr>
+                </thead>
+                <tbody class="">
+                    <tr class="ui inverted table">
+                        <td class="invertedcell">Langage</td>
+                        <td class="invertedcell">Note</td>
+                        <td class="invertedcell">Environnement</td>
+                        <td class="invertedcell">Note</td>
+                    </tr>
+                    <tr class="">
+                        <td class="">HTML</td>
+                        <td class=""> &#9733; &#9733; &#9733; &#9733; </td>
+                        <td class="">Linux</td>
+                        <td class=""> &#9733; &#9733; &#9733; &#9733; </td>
+                    </tr>
+                    <tr class="">
+                        <td class="">CSS</td>
+                        <td class="">&#9733;&#9733;&#9733;</td>
+                        <td class="">MacOS</td>
+                        <td class="">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+                    </tr>
+                    <tr class="">
+                        <td class="">PHP</td>
+                        <td class="">&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+                        <td class="">Windows</td>
+                        <td class="">&#9733;&#9733;&#9733;</td>
+                    </tr>
+                </thead>
+                </tbody>
+            </table>
+            
+        </div>
+    </div>
+
+    <!-- The Work Section -->
+    <div class="work" id='work'>
+
+        <h2 class='subtitle'>Work</h2>
+        <div class='container-work'>
+            <div class="ui horizontally  three column grid">
+                <div class='column'>
+
+                    <img class="image" src='public/photograph.jpg' />
+                    <p class='parag'>Article 1</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo aliquanto liberius et fortius et magis
+                        more nostro refutaremus istam male
+                        dicendi licentiam.</p>
+                    <hr>
+                    <div class='ui button' id='read-button'>Read more</div>
+                </div>
+                <div class='column'>
+                    <img class="image" src='public/house.jpg' />
+                    <p class='parag'>Article 2</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo aliquanto liberius et fortius et magis
+                        more nostro refutaremus istam male
+                        dicendi licentiam.</p>
+                    <hr>
+                    <div class='ui button' id='read-button'>Read more</div>
+                </div>
+                <div class='column'><img class="image" src='public/monument.jpg' />
+                    <p class='parag'>Article 3</p>
+
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo aliquanto liberius et fortius et magis
+                        more nostro refutaremus istam male
+                        dicendi licentiam.</p>
+                    <hr>
+                    <div class='ui button' id='read-button' >Read more</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- The Contact Section -->
+    <div class="contact" id='contact'>
+        <h2 class="subtitle">Contact</h2>
+        <div class="ui horizontally divided two column grid">
+
+            <div class='column'>
+                <form class="ui form" id='form'>
+                    <div class="inline fields">
+                        <div class="field">
+                            <div class="ui radio checkbox"><input type="radio" class="hidden" readonly="" tabindex="0"
+                                    value="sm" /><label id="label">Human</label></div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox"><input type="radio" class="hidden" readonly="" tabindex="0"
+                                    value="md" checked /><label id="label">Not sure</label></div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox"><input type="radio" class="hidden" readonly="" tabindex="0"
+                                    value="lg" /><label id="label">Robot</label></div>
+                        </div>
+                    </div>
+                    <div class="field"><label id="label">Subject</label>
+                        <div role="listbox" id='input' aria-expanded="false" class="ui fluid selection dropdown" tabindex="0">
+                            <div aria-atomic="true" aria-live="polite" role="alert" class="divider default text">Work
+                            </div><i aria-hidden="true" class="dropdown icon"></i>
+
+                        </div>
+                    </div>
+                    <div class="equal width fields">
+                        <div class="field"><label id="label">Nickname</label>
+                            <div class="ui fluid input"><input type="text" id='input' placeholder="Your nickname" />
+                            </div>
+                        </div>
+                        <div class="field"><label id="label">Email adress</label>
+                            <div class="ui fluid input"><input type="text" id='input' placeholder="Your email" /></div>
+                        </div>
+
+                    </div>
+
+                    <div class="field"><label class="label">Message</label><textarea placeholder="Enter your message..."
+                            rows="8" id='input'></textarea></div>
+                    <div class="inline fields">
+                        <div class="field"><button class="ui button" id="button">reset</button></div>
+                        <div class="field"><button class="ui button" id="button">Send your message</button></div>
+                    </div>
+            </div>
+
+            <div class='column'>
+                <div class='second-column'>Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse
+                    Atratino datam. Neque
+                    enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur
+                    optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male
+                    dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male
+                    dicendi licentiam. Tecum, Atratine, agam lenius, quod et pudor tuus moderatur orationi meae et meum
+                    erga te parentemque tuum beneficium tueri debeo.</div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class='footer'>
+        <p class="text-footer">Samuel Daurt copyright...Lorem Ipsum dolor sir amet...</p>
+    </div>
+
+<!-- End Page Content -->
+</body>
+</html>
